@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653140141767_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653140141785_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653140400747_3" label="edd-parent" name="edd-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edd-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Junit" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653295310105_4" label="edd_ej_1" name="edd_ej_1">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/edd_ej_1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/a" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sub1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sub2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/g" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/c" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/d" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/e" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sub3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/j" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/h" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653843021809_5" label="EDD" name="EDD"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1653140144117_2" label="Window Working Set" name="Aggregate for window 1653140144117"/>
+<mruList name="EDD"/>
+</workingSetManager>

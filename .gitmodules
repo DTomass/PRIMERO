@@ -1,0 +1,6 @@
+[submodule "PROGRAMACION/NetBeansProjects/Programacion_1"]
+	path = PROGRAMACION/NetBeansProjects/Programacion_1
+	url = https://github.com/DTomass/Programacion_1
+[submodule "MARCAS/Marcas_1"]
+	path = MARCAS/Marcas_1
+	url = https://github.com/DTomass/Marcas_1

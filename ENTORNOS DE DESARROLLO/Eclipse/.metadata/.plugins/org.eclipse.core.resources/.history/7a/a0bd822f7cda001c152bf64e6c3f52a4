@@ -1,0 +1,23 @@
+package Junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Date;
+
+import org.junit.jupiter.api.Test;
+
+import Main.A;
+
+class ATestJunit {
+
+	@Test
+	void testdateGreaterThanAWeek() {
+		long millisInAWeek = 1000 * 60 * 60 * 24 * 7;
+		Date hoy = new Date(new Date().getTime());
+		Date semana = new Date(new Date().getTime()-millisInAWeek);
+		assertTrue(A.dateGreaterThanAWeek(semana));
+		assertFalse(A.dateGreaterThanAWeek(hoy));
+		
+	}
+
+}

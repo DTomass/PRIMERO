@@ -1,0 +1,671 @@
+{
+  "canvas": {
+    "version": "2.2.6",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -299.33333333333337,
+    "scrollLeft": 0,
+    "zoomLevel": 0.9,
+    "show": {
+      "tableComment": false,
+      "columnComment": false,
+      "columnDataType": true,
+      "columnDefault": false,
+      "columnAutoIncrement": true,
+      "columnPrimaryKey": true,
+      "columnUnique": true,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Alumno",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_alumno",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 65.85594177246094,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6396d0db-a8bc-4c5c-beca-76a4ffbb49ff"
+          },
+          {
+            "name": "Nombre_alumno",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 104.8428955078125,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "299bd83e-373d-4f8d-91b7-625561ad8171"
+          },
+          {
+            "name": "Fecha_Nacimiento",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 113.61787414550781,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aebb1ec4-b999-435f-b168-56de336a15d7"
+          },
+          {
+            "name": "Domicilio",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "4322ee5b-fd77-4101-b382-e3d7f75085da"
+          },
+          {
+            "name": "id_extraescolar",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 93.8448486328125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b5bd175f-3b49-4899-a3d5-045640d6dc24"
+          },
+          {
+            "name": "Nombre_curso",
+            "comment": "",
+            "dataType": "VARCHAR(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 91.84288024902344,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "cb8aae52-34ad-48c0-a165-e7ba9188fe51"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 93.6481,
+          "top": 318.4991,
+          "zIndex": 15,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "184229f8-78ca-471b-9ae2-ce1997f6249c"
+      },
+      {
+        "name": "Actividad_Extraescolar",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_extraescolar",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": true,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 93.8448486328125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c3cfbe54-1a0f-4021-a81d-4807b50072ec"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 539.9997,
+          "top": 76.5001,
+          "zIndex": 6,
+          "widthName": 138.48681640625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b4ac39f5-0f4c-4002-9dab-143173a17c83"
+      },
+      {
+        "name": "Curso",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Nombre_curso",
+            "comment": "",
+            "dataType": "VARCHAR(10)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 91.84288024902344,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "71f219c9-a5c5-4cca-9a1b-f3e9e7b234b1"
+          },
+          {
+            "name": "Numero_alumnos",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.10888671875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "77be1796-3503-41dc-aad4-3dad02f98623"
+          },
+          {
+            "name": "Nombre_seccion",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 103.39985656738281,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "8998c0db-2b5a-4974-9d18-b625a0333ecb"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 93.1665,
+          "top": 657.6683,
+          "zIndex": 3,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "68a49ed7-a636-4dea-b289-0d88640d917a"
+      },
+      {
+        "name": "Seccion",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Nombre_seccion",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103.39985656738281,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "6517b2bc-b3c8-4500-a85a-5da305fb3943"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 547.6669,
+          "top": 678.8334,
+          "zIndex": 19,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "275f8482-96d6-4c81-8536-d52f567c1a2c"
+      },
+      {
+        "name": "Historial_Academico",
+        "comment": "",
+        "columns": [
+          {
+            "name": "fecha_entrada_centro",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 133.93682861328125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "22b0d4f5-45d0-41cd-9703-a3ef2fcaefe3"
+          },
+          {
+            "name": "observaciones",
+            "comment": "",
+            "dataType": "VARCHAR(30)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 89.73687744140625,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "24b3d988-cf9c-4027-8df7-a83193a4897c"
+          },
+          {
+            "name": "nota_media",
+            "comment": "",
+            "dataType": "TINYINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 73.78593444824219,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "343ffaa7-e238-4016-be24-b8774bb52bf2"
+          },
+          {
+            "name": "Nombre_alumno",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 104.8428955078125,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "cd65b218-663e-424e-afac-1d1d9c0dac44"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 554.1659,
+          "top": 339.0004,
+          "zIndex": 17,
+          "widthName": 125.69483947753906,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "39d28afb-ac10-4a27-9a9b-852e57f0c417"
+      },
+      {
+        "name": "Matricular_extraescolar",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_extraescolar",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 93.8448486328125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bac0bbc6-bb17-4111-a24c-e7d1d5311815"
+          },
+          {
+            "name": "id_alumno",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 65.85594177246094,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e4fdaa19-f97b-4e1c-aaf3-a334fc91e19c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 102.1666,
+          "top": 65.3328,
+          "zIndex": 2,
+          "widthName": 145.28579711914062,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "769c936c-c96e-465e-a93e-d9e7d712148b"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "275f8482-96d6-4c81-8536-d52f567c1a2c",
+          "columnIds": [
+            "6517b2bc-b3c8-4500-a85a-5da305fb3943"
+          ],
+          "x": 547.6669,
+          "y": 723.5834,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "68a49ed7-a636-4dea-b289-0d88640d917a",
+          "columnIds": [
+            "8998c0db-2b5a-4974-9d18-b625a0333ecb"
+          ],
+          "x": 430.86230078125,
+          "y": 722.9183,
+          "direction": "right"
+        },
+        "constraintName": "fk_seccion_to_curso",
+        "visible": true,
+        "id": "2d321300-7cb3-4eb6-9c46-87894ea8e37e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "68a49ed7-a636-4dea-b289-0d88640d917a",
+          "columnIds": [
+            "71f219c9-a5c5-4cca-9a1b-f3e9e7b234b1"
+          ],
+          "x": 262.014400390625,
+          "y": 657.6683,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "184229f8-78ca-471b-9ae2-ce1997f6249c",
+          "columnIds": [
+            "cb8aae52-34ad-48c0-a165-e7ba9188fe51"
+          ],
+          "x": 263.7504941040039,
+          "y": 510.4991,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_curso_to_alumno",
+        "visible": true,
+        "id": "d5d114f6-ad57-4c2c-9a2f-06b42d65cf7a"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "184229f8-78ca-471b-9ae2-ce1997f6249c",
+          "columnIds": [
+            "299bd83e-373d-4f8d-91b7-625561ad8171"
+          ],
+          "x": 433.8528882080078,
+          "y": 414.4991,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "39d28afb-ac10-4a27-9a9b-852e57f0c417",
+          "columnIds": [
+            "cd65b218-663e-424e-afac-1d1d9c0dac44"
+          ],
+          "x": 554.1659,
+          "y": 414.5004,
+          "direction": "left"
+        },
+        "constraintName": "fk_alumno_to_historial_academico",
+        "visible": true,
+        "id": "74b425c1-4bdf-41d9-b820-28c6524d2dce"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b4ac39f5-0f4c-4002-9dab-143173a17c83",
+          "columnIds": [
+            "c3cfbe54-1a0f-4021-a81d-4807b50072ec"
+          ],
+          "x": 539.9997,
+          "y": 121.2501,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "769c936c-c96e-465e-a93e-d9e7d712148b",
+          "columnIds": [
+            "bac0bbc6-bb17-4111-a24c-e7d1d5311815"
+          ],
+          "x": 400.0114486328125,
+          "y": 120.3328,
+          "direction": "right"
+        },
+        "constraintName": "fk_actividad_extraescolar_to_matricular_extraescolar",
+        "visible": true,
+        "id": "4ef5cc45-e59f-4645-8753-e6b2b39cea2a"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "184229f8-78ca-471b-9ae2-ce1997f6249c",
+          "columnIds": [
+            "6396d0db-a8bc-4c5c-beca-76a4ffbb49ff"
+          ],
+          "x": 263.7504941040039,
+          "y": 318.4991,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "769c936c-c96e-465e-a93e-d9e7d712148b",
+          "columnIds": [
+            "e4fdaa19-f97b-4e1c-aaf3-a334fc91e19c"
+          ],
+          "x": 251.08902431640627,
+          "y": 175.33280000000002,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_alumno_to_matricular_extraescolar",
+        "visible": true,
+        "id": "e290bf36-660c-4102-9378-8f175942c366"
+      }
+    ]
+  }
+}

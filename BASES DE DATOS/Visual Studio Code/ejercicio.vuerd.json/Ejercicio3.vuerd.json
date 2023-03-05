@@ -1,0 +1,1130 @@
+{
+  "canvas": {
+    "version": "2.2.6",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -414.6666666666666,
+    "scrollLeft": -334.00000000000006,
+    "zoomLevel": 0.8,
+    "show": {
+      "tableComment": false,
+      "columnComment": false,
+      "columnDataType": true,
+      "columnDefault": false,
+      "columnAutoIncrement": true,
+      "columnPrimaryKey": true,
+      "columnUnique": true,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Empleado",
+        "comment": "",
+        "columns": [
+          {
+            "name": "DNI",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "ddfe5458-2acb-4223-bd4a-7963fb434538"
+          },
+          {
+            "name": "Nombre",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "07914d96-360a-4e60-a18f-304ea32a4f27"
+          },
+          {
+            "name": "Apellidos",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "5488ce9c-6fc5-47d8-aa5f-bb52737c1307"
+          },
+          {
+            "name": "Direccion",
+            "comment": "",
+            "dataType": "VARCHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": true,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "5327a203-c86e-415b-9d5d-f301d53e3930"
+          },
+          {
+            "name": "Codigo_postal",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 88.4888916015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "926dc6e5-9097-41c9-a3b9-bce5961a9309"
+          },
+          {
+            "name": "Telefono",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": true,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fea7c052-290d-48ca-b3dc-99070d97c4fa"
+          },
+          {
+            "name": "Fecha_antiguedad",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 113.43589782714844,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "4a6515e6-65ce-4380-870a-5f7b2bb1e0a4"
+          },
+          {
+            "name": "id_supermercado",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 108.06686401367188,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "cfcc052c-1f27-40f2-a47b-dd45a445b955"
+          },
+          {
+            "name": "Codigo_seccion",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 96.35386657714844,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "95b8508f-e212-41e4-8b55-6e691aa045bc"
+          },
+          {
+            "name": "id_jefe",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "cb473265-8d92-42db-853d-5f5e7dce9a84"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 17.3145,
+          "top": 75.2775,
+          "zIndex": 24,
+          "widthName": 63.216949462890625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "3c1b24b9-7eb6-44d4-880c-0b6f68ed84a1"
+      },
+      {
+        "name": "Supermercado",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_supermercado",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 108.06686401367188,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e9b376fa-006e-41c8-8b5d-85317cbd4cba"
+          },
+          {
+            "name": "Nombre",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "51a76603-ea53-4a6f-9719-e977f1659a15"
+          },
+          {
+            "name": "Direccion",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "1f8261f8-5980-4f20-a459-8563fde51c11"
+          },
+          {
+            "name": "Codigo_postal",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 88.4888916015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d7a922f9-0267-4b9e-aba4-d0415579e458"
+          },
+          {
+            "name": "Telefono",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": true,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "91b2d4d8-5de2-40e2-b30f-27ce63198454"
+          },
+          {
+            "name": "Fecha_inauguracion",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 124.05686950683594,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "bd8d0352-afdf-45d3-82c7-4b45c0929f0e"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 11.9443,
+          "top": 455.8339,
+          "zIndex": 28,
+          "widthName": 91.85589599609375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "209d9874-076d-445d-887e-bdfe729064c9"
+      },
+      {
+        "name": "Seccion",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Codigo_seccion",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 96.35386657714844,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0b20e6e2-b64e-4feb-85b4-75f438fb12e3"
+          },
+          {
+            "name": "Nombre",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "70db918b-49c9-4681-a97e-18c1a39c4ab7"
+          },
+          {
+            "name": "Caracteristicas",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 90.932861328125,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "7a852291-08fe-414a-93bd-b436ba1d4762"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 479.5748,
+          "top": 156.9454,
+          "zIndex": 51,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "57faa967-c679-46ae-86f2-7dd89a3c7e9f"
+      },
+      {
+        "name": "Cliente",
+        "comment": "",
+        "columns": [
+          {
+            "name": "DNI",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a068642b-52cb-4bae-9e36-c7a71a34b674"
+          },
+          {
+            "name": "Nombre",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "a1317f2c-8179-4ae6-8bcc-795401189062"
+          },
+          {
+            "name": "Apellido",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "76cd4803-a006-4302-9fa7-0de00ef25bfb"
+          },
+          {
+            "name": "Telefono",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": true,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6df93b19-207c-4bd6-8c55-ec1522489f5d"
+          },
+          {
+            "name": "Codigo_postal",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 88.4888916015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "14b1cb73-099b-4ee6-abe2-a5d6aeb92630"
+          },
+          {
+            "name": "Fecha_nacimiento",
+            "comment": "",
+            "dataType": "DATE",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.77188110351562,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f98846f0-66e4-4ed5-91ee-810f7142938e"
+          },
+          {
+            "name": "Edad",
+            "comment": "",
+            "dataType": "TINYINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "36d05da7-d476-45fa-9352-990048412d99"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 503.6489,
+          "top": 431.6676,
+          "zIndex": 32,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b0a4237f-030b-4aba-afb7-9baf199c1b7d"
+      },
+      {
+        "name": "Proveedor",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Cif_proveedor",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": true,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 87.01985168457031,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "338cb2ad-4cb2-48cd-815c-5066d1ea45f1"
+          },
+          {
+            "name": "Nombre",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "a5909023-7aab-4997-9ce4-e520c8c5de1b"
+          },
+          {
+            "name": "Direccion",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": true,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "21fb5b80-1060-4969-b938-cb213bf45911"
+          },
+          {
+            "name": "Telefono",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0526081c-9b7e-4f39-aba2-bd2dfe7b15b1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 923.1666,
+          "top": 428.6118,
+          "zIndex": 47,
+          "widthName": 65.07588195800781,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b5e8e5ee-b816-4eb2-b665-e6e6467e5276"
+      },
+      {
+        "name": "Compra",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_supermercado",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 108.06686401367188,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7fdc3237-6ffc-454c-b8ac-57d6efa40d5e"
+          },
+          {
+            "name": "DNI",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a51b5925-376a-473f-b576-9d40181315be"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 20.4999,
+          "top": 750.9429,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "7b2d4d5c-f159-4ae6-aaf0-e05ac3e2201a"
+      },
+      {
+        "name": "Reponer",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Cif_proveedor",
+            "comment": "",
+            "dataType": "VARCHAR(15)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 87.01985168457031,
+              "widthComment": 60,
+              "widthDataType": 82.5869140625,
+              "widthDefault": 60
+            },
+            "id": "7a12a53e-3201-4f26-85ce-af3c4dfb448d"
+          },
+          {
+            "name": "Codigo_seccion",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 96.35386657714844,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "375a94ec-8acd-4146-95b4-7213c93a3f4f"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 919.7775,
+          "top": 168.3887,
+          "zIndex": 1,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "174d8519-2619-4a5c-bdff-21e97275029c"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "209d9874-076d-445d-887e-bdfe729064c9",
+          "columnIds": [
+            "e9b376fa-006e-41c8-8b5d-85317cbd4cba"
+          ],
+          "x": 187.26619178466797,
+          "y": 455.8339,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "3c1b24b9-7eb6-44d4-880c-0b6f68ed84a1",
+          "columnIds": [
+            "cfcc052c-1f27-40f2-a47b-dd45a445b955"
+          ],
+          "x": 187.32590594482423,
+          "y": 349.27750000000003,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_supermercado_to_empleado",
+        "visible": true,
+        "id": "c194b12a-e57a-471d-afb4-80f770d7155a"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "209d9874-076d-445d-887e-bdfe729064c9",
+          "columnIds": [
+            "e9b376fa-006e-41c8-8b5d-85317cbd4cba"
+          ],
+          "x": 187.26619178466797,
+          "y": 647.8339000000001,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "7b2d4d5c-f159-4ae6-aaf0-e05ac3e2201a",
+          "columnIds": [
+            "7fdc3237-6ffc-454c-b8ac-57d6efa40d5e"
+          ],
+          "x": 176.53333200683593,
+          "y": 750.9429,
+          "direction": "top"
+        },
+        "constraintName": "fk_supermercado_to_compra",
+        "visible": true,
+        "id": "44dff0da-8ff0-4ca3-b0ff-b45bb04309ad"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b5e8e5ee-b816-4eb2-b665-e6e6467e5276",
+          "columnIds": [
+            "338cb2ad-4cb2-48cd-815c-5066d1ea45f1"
+          ],
+          "x": 1079.9699828735352,
+          "y": 428.6118,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "174d8519-2619-4a5c-bdff-21e97275029c",
+          "columnIds": [
+            "7a12a53e-3201-4f26-85ce-af3c4dfb448d"
+          ],
+          "x": 1081.2478903198244,
+          "y": 278.3887,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_proveedor_to_reponer",
+        "visible": true,
+        "id": "98d6c80a-742e-4f8c-9e28-13ff021bbee7"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "57faa967-c679-46ae-86f2-7dd89a3c7e9f",
+          "columnIds": [
+            "0b20e6e2-b64e-4feb-85b4-75f438fb12e3"
+          ],
+          "x": 802.5155806396484,
+          "y": 222.1954,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "174d8519-2619-4a5c-bdff-21e97275029c",
+          "columnIds": [
+            "375a94ec-8acd-4146-95b4-7213c93a3f4f"
+          ],
+          "x": 919.7775,
+          "y": 223.3887,
+          "direction": "left"
+        },
+        "constraintName": "fk_seccion_to_reponer",
+        "visible": true,
+        "id": "e5d6384c-650b-4486-9b30-77c40979f083"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "57faa967-c679-46ae-86f2-7dd89a3c7e9f",
+          "columnIds": [
+            "0b20e6e2-b64e-4feb-85b4-75f438fb12e3"
+          ],
+          "x": 479.5748,
+          "y": 222.1954,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "3c1b24b9-7eb6-44d4-880c-0b6f68ed84a1",
+          "columnIds": [
+            "95b8508f-e212-41e4-8b55-6e691aa045bc"
+          ],
+          "x": 357.33731188964845,
+          "y": 280.77750000000003,
+          "direction": "right"
+        },
+        "constraintName": "fk_seccion_to_empleado",
+        "visible": true,
+        "id": "74fcf010-774a-4e67-b1aa-95ea71a2dccb"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Ring",
+        "start": {
+          "tableId": "3c1b24b9-7eb6-44d4-880c-0b6f68ed84a1",
+          "columnIds": [
+            "ddfe5458-2acb-4223-bd4a-7963fb434538"
+          ],
+          "x": 337.33731188964845,
+          "y": 75.2775,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "3c1b24b9-7eb6-44d4-880c-0b6f68ed84a1",
+          "columnIds": [
+            "cb473265-8d92-42db-853d-5f5e7dce9a84"
+          ],
+          "x": 357.33731188964845,
+          "y": 143.7775,
+          "direction": "right"
+        },
+        "constraintName": "fk_empleado_to_empleado",
+        "visible": true,
+        "id": "41926f79-8f03-4e1c-8370-437f0f1c5116"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b0a4237f-030b-4aba-afb7-9baf199c1b7d",
+          "columnIds": [
+            "a068642b-52cb-4bae-9e36-c7a71a34b674"
+          ],
+          "x": 503.6489,
+          "y": 537.9176,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "7b2d4d5c-f159-4ae6-aaf0-e05ac3e2201a",
+          "columnIds": [
+            "a51b5925-376a-473f-b576-9d40181315be"
+          ],
+          "x": 332.5667640136719,
+          "y": 805.9429,
+          "direction": "right"
+        },
+        "constraintName": "fk_cliente_to_compra",
+        "visible": true,
+        "id": "f3bdce2f-0f5c-4f30-9e9f-87c8bc91dac0"
+      }
+    ]
+  }
+}

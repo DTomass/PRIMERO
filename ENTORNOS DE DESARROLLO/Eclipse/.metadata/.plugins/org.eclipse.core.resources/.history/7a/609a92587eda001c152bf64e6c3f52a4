@@ -1,0 +1,55 @@
+package Junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+import org.junit.jupiter.api.Test;
+
+import Main.A;
+
+class ATestJunit {
+
+	@Test
+	void testdateGreaterThanAWeek() {
+		A a = new A();
+		long millisInAWeek = 1000 * 60 * 60 * 24 * 7;
+		Date hoy = new Date(new Date().getTime());
+		Date semana = new Date(new Date().getTime()-millisInAWeek);
+		assertTrue(a.dateGreaterThanAWeek(semana));
+		assertFalse(a.dateGreaterThanAWeek(hoy));
+		
+	}
+	@Test
+	void testipAdressType() {
+		long millisInAWeek = 1000 * 60 * 60 * 24 * 7;
+		Date hoy = new Date(new Date().getTime());
+		Date semana = new Date(new Date().getTime()-millisInAWeek);
+		assertTrue(A.dateGreaterThanAWeek(semana));
+		assertFalse(A.dateGreaterThanAWeek(hoy));
+		
+	}
+	@Test
+	void testvalueIsDivisibleByNumber() {
+		BigDecimal dividendo = new BigDecimal(89);
+		BigDecimal divisor = new BigDecimal(10);
+		BigDecimal esp = new BigDecimal(9);
+		BigDecimal obte = A.valueIsDivisibleByNumber(dividendo, divisor);
+		assertEquals(esp, obte);
+		BigDecimal dividendo2 = new BigDecimal(-89);
+		BigDecimal divisor2 = new BigDecimal(10);
+		BigDecimal esp2 = new BigDecimal(-9);
+		BigDecimal obte2 = A.valueIsDivisibleByNumber(dividendo2, divisor2);
+		assertEquals(esp2, obte2);
+		
+	}
+	@Test
+	void testisPalindromo() {
+		A a = new A();
+		String frase = "hola aloh";
+		String frasenull = null;
+		assertTrue(a.isPalindromo(frase));
+		assertNull(a.isPalindromo(frasenull));
+	}
+}

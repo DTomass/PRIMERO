@@ -1,0 +1,34 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install open-vm-tools-desktop
+cd ..
+cd ..
+sudo nano hostname
+Ctrl+x(salir)
+sudo apt install ifupdown
+sudo apt install net-tools
+ifconfig
+averiguar la tarjeta de bridge y nat
+software/setings/avanzadas(ver la mac)
+cd ..
+cd etc
+cd network
+
+sudo nano interfaces
+auto lo
+iface lo inet loopback
+
+(targeta nat)
+auto (targeta nat)
+iface (tarjeta nat) inet dhcp
+
+(targeta red local bridge)
+auto (bridge)
+iface (bridge) inet static
+adress 193.168.24.1
+netmask 255.255.255.0
+network 193.168.24.0
+broadcast 193.168.24.255
+gateway 193.168.24.254
+dns-nameservers 192.168.24.253, 8.8.8.8, 8.8.4.4
+dns-search
